@@ -1,0 +1,33 @@
+{
+  "name": "npm_curso_node",
+  "version": "1.0.0",
+  "description": "Es un ejercicio de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enzo-Ro-Haus/Pasantia.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs"
+  ],
+  "author": "enzo rosso hausberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enzo-Ro-Haus/Pasantia/issues"
+  },
+  "homepage": "https://github.com/Enzo-Ro-Haus/Pasantia#readme",
+  "dependencies": {
+    "picocolors": "1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}

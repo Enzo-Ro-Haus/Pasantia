@@ -1,0 +1,19 @@
+Iniciar un packaje json (descripcion de proyecto en json):
+npm init 
+o
+npm init -y Si no quiero responder las preguntas de inicio
+
+Instalar:
+npm i nombreDependencia
+
+Desintalar:
+npm uninstall nombreDependencia
+
+Hay dos tipos de dependencias:
+De produccion:  Nuestra app la necesita para funcionar.
+npm i nombreDependencia
+De desarrollo:  Nuestra app no la necesita para funcionar.
+                Por ello se puede ignorar en produccion.
+npm i nombreDependencia -D
+o
+npm i nombreDependencia --development
