@@ -21,4 +21,5 @@ export class AppModule {}
  * nest g s carpeta --no-spec <- Lo mismo q arriba pero genera un servicio sin el archivo de test
  * nest g pi carpeta/pipes/validateuser <- Dentro de carpeta crea otra y un pipes
  * nest g gu carpeta/guards/auth  <- Dentro de carpeta crea otra y un guard
+ * nest g mi logger <- Crea una middleware en la carpeta en la que está
  */
